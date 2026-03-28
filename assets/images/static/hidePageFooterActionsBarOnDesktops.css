@@ -1,0 +1,8 @@
+@media (min-width: 769px) {
+    div.main-content-wrapper 
+    div.content-theme-cover 
+    main.content-area#main-content 
+    div.page-footer-actions {
+        display: none;
+    }
+}
