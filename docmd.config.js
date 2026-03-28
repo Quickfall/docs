@@ -31,7 +31,7 @@ export default defineConfig({
       position: 'menubar',
       components: {
         search: true,      
-        themeSwitch: false, 
+        themeSwitch: true, 
         sponsor: 'https://github.com/sponsors/Quickfall',     
       }
     },
@@ -44,8 +44,8 @@ export default defineConfig({
 
   // --- Theme Settings ---
   theme: {
-    name: 'quickfall',
-    appearance: 'dark',
+    name: 'default',
+    appearance: 'system',
     codeHighlight: true,    
     customCss: ['assets/images/static/fixedFooter.css'],          
   },
