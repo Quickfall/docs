@@ -47,7 +47,10 @@ export default defineConfig({
     name: 'default',
     appearance: 'system',
     codeHighlight: true,    
-    customCss: ['assets/images/static/fixedFooter.css'],          
+    customCss: [
+      'assets/images/static/fixedFooter.css',
+      'assets/images/static/hidePageFooterActionsBarOnDesktops.css',
+    ],          
   },
 
   // --- General Features ---
