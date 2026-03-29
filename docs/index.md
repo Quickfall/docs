@@ -10,7 +10,19 @@ This documentation will cover the basics of Quickfall, including the schemas it 
 - <a href="https://github.com/Quickfall/language-server" target="_blank" rel="noopener noreferrer">Language Server</a>
 - <a href="https://github.com/Quickfall/resources" target="_blank" rel="noopener noreferrer">Branding Resources</a>
 - <a href="https://github.com/Quickfall" target="_blank" rel="noopener noreferrer">Github</a>
-- ~~<a href="" target="_blank" rel="noopener noreferrer">Donate</a>~~
 
 With that covered, if you still can't find what you're looking for, you can ask in [our Discord server]() or [email Support]().
+
+<br />
+<br />
+
+::: callout info
+Quickfall is looking for funding to continue development. Consider donating at the links below if you like what we do! ♡
+
+::: tabs
+== tab "Github Sponsors"
+https://github.com/sponsors/Quickfall
+
+:::
+::: 
 
