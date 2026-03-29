@@ -48,7 +48,6 @@ export default defineConfig({
     appearance: 'system',
     codeHighlight: true,    
     customCss: [
-      'assets/css/fixedFooter.css',
       'assets/css/hidePageFooterActionsBarOnDesktops.css',
     ],          
   },
