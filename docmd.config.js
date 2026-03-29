@@ -49,6 +49,7 @@ export default defineConfig({
     codeHighlight: true,    
     customCss: [
       'assets/css/hidePageFooterActionsBarOnDesktops.css',
+      'assets/css/typesSelectorList.css',
     ],          
   },
 
@@ -64,6 +65,7 @@ export default defineConfig({
   // --- Navigation (Sidebar) ---
   navigation: [
     { title: 'Home', path: '/', icon: 'home' },
+    { title: 'Types', path: '/types', icon: 'code' },
   ],
 
   // --- Plugins ---

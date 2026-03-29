@@ -1,0 +1,59 @@
+#types-selector-list,
+div.types-selector-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    align-items: stretch;
+    gap: 10px;
+}
+
+#types-selector-list a,
+div.types-selector-list a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    cursor: default;
+    transition: background-color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+    width: 100%;
+    box-sizing: border-box;
+    white-space: normal;
+    overflow-wrap: anywhere;
+    word-break: normal;
+    min-height: 38px;
+    margin: 0;
+    border: 1px solid var(--border-color);
+    color: var(--text-color);
+}
+
+#types-selector-list a:hover,
+div.types-selector-list a:hover {
+    border-color: rgba(147, 51, 234, 0.5);
+    background-color: rgba(147, 51, 234, 0.14);
+}
+
+#types-selector-list a.is-selected,
+div.types-selector-list a.is-selected,
+#types-selector-list a[aria-selected="true"],
+div.types-selector-list a[aria-selected="true"],
+#types-selector-list a:active,
+div.types-selector-list a:active {
+    border-color: rgba(147, 51, 234, 0.65);
+    background-color: rgba(147, 51, 234, 0.2);
+    box-shadow: 0 0 0 1px rgba(147, 51, 234, 0.18) inset;
+}
+
+#types-selector-list code,
+div.types-selector-list code {
+    font-size: 0.9em;
+    padding: 2px 4px;
+    background-color: var(--code-bg);
+    color: var(--code-text);
+}
+
+@media (max-width: 640px) {
+    #types-selector-list a,
+    div.types-selector-list a {
+        width: 100%;
+    }
+}
