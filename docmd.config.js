@@ -48,8 +48,8 @@ export default defineConfig({
     appearance: 'system',
     codeHighlight: true,    
     customCss: [
-      'assets/images/static/fixedFooter.css',
-      'assets/images/static/hidePageFooterActionsBarOnDesktops.css',
+      'assets/css/fixedFooter.css',
+      'assets/css/hidePageFooterActionsBarOnDesktops.css',
     ],          
   },
 
